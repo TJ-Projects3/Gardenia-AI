@@ -24,7 +24,7 @@ export default function Home() {
         <Box sx={{textAlign: 'center', backgroundColor: 'white', height: '70vh', paddingTop: '50px', borderRadius: '20px', padding: '70px 20px'}}>
           <div className="welcome-bg">
             <Typography className="welcome-title" variant="h3" component="h1" gutterBottom>
-              Grow with <Typography className="welcome-title" variant="h3" component="span" sx={{
+              Grow with <Typography className="welcome-title" fontWeight={"500"} variant="h3" component="span" sx={{
     background: 'linear-gradient(90deg, #97D3CD, #4CAF50)', // Light green gradient
     WebkitBackgroundClip: 'text',
     WebkitTextFillColor: 'transparent',
